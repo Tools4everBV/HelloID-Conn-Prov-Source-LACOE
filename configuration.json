@@ -1,0 +1,24 @@
+[
+  {
+    "key": "hostname",
+    "type": "input",
+    "defaultValue": "https://lacoedataexchange.lacoe.edu",
+    "templateOptions": {
+      "label": "LACOE URL",
+      "placeholder": "https://lacoedataexchange.lacoe.edu",
+      "description": "URL of the LACOE system",
+      "required": true
+    }
+  },
+  {
+    "key": "api_key",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "API Key",
+      "type": "password",
+      "placeholder": "Please enter your API key",
+      "required": true
+    }
+  }
+]
